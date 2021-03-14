@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4cf98c2547.js" crossorigin="anonymous"></script>
+  <title>Réservia</title>
+</head>
+<body>
+<main>
+  <div id="bloc_page">
+    <header class="header_navbar">
+      <img src="images/logo/Reservia@3x.png" id="nav_logo" alt="Logo Réservia">
+      <div id="nav_menu">
+        <a id="bloc_hebergements" href="#hebergements">Hébergements</a>
+        <a id="bloc_activites" href="#activites">Actitivités</a>
+        <a id="bloc_inscrire" href="inscription.html">S'inscrire</a>
+      </div>
+    </header>
+    <section id="introduction">
+      <h1>Trouvez votre hébergements de rêve pour les vacances</h1>
+      <h2>En centre-ville ou en pleine nature</h2>
+      <form id="search" action="search" method="POST">
+        <span id="map"><i class="fas fa-map-marker-alt"></i></span>
+        <input type="search" name="recherche" id="texterecherche" placeholder="Marseille,France">
+        <button class="loupe">
+          <span class="rechercher">Rechercher</span>
+          <span><i class="fas fa-search" aria-hidden="true"></i></span>
+        </button>
+      </form>
+      <div id="bloc_filtres">
+        <h3>Filtres</h3>
+        <span class="filtre"><i class="fas fa-money-bill-wave"></i>Economique</span>
+        <span class="filtre"><i class="fas fa-child"></i>Familial</span>
+        <span class="filtre"><i class="fas fa-heart"></i>Romantique</span>
+        <span class="filtre"><i class="fas fa-dog"></i>Animaux autorisés</span>                
+      </div>
+      <div id="bloc_information">
+        <span class="fa-stack" style="vertical-align: center;font-size: small;">
+          <i class="far fa-circle fa-stack-2x" style="color: #f2f2f2;"></i>
+          <i class="fas fa-info fa-stack-1x" style="color: #0065fc;"></i></span>Plus de 500 logements disponibles dans cette ville
+      </div>
+    </section>
+    <section id="hebergements">
+      <h2>Hébergements à Marseille</h2>
+      <div id="bloc_cartes_hebergements">
+        <div class="bloc_hebergements">
+          <a href="#">
+            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge avec lits superposés">
+            <div class="titre_hôtel">Auberge de la Cannebière</div>
+            <div class="prix">Nuit à partir de <span class="gras">25€</span>
+            </div>
+            <div class="etoiles">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </a>
+        </div>
+        <div class="bloc_hebergements">
+          <a href="#">
+            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Chambre deux lits simples
+            ">
+            <div class="titre_hôtel">Hôtel du port</div>
+            <div class="prix">Nuit à partir de 52<span class="gras">€</span>
+            </div>
+            <div class="etoiles">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </a>
+        </div>
+        <div class="bloc_hebergements">
+          <a href="#">
+            <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Chambre deux lits simples
+            ">
+            <div class="titre_hôtel">Hôtel Les mouettes</div>
+            <div class="prix">Nuit à partir de 76<span class="gras">€</span>
+            </div>
+            <div class="etoiles">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </a>
+        </div>
+        <div class="bloc_hebergements">
+          <a href="#">
+            <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Chambre lit double">
+            <div class="titre_hôtel">Hôtel de la mer</div>
+            <div class="prix">Nuit à partir de 46<span class="gras">€</span>
+            </div>
+            <div class="etoiles">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </a>
+        </div>
+        <div class="bloc_hebergements">
+          <a href="#">
+            <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge avec lits superposés">
+            <div class="titre_hôtel">Auberge Le Panier</div>
+            <div class="prix">Nuit à partir de<span class="gras">23€</span>
+            </div>
+            <div class="etoiles">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </a>
+        </div>
+        <div class="bloc_hebergements">
+          <a href="#">
+            <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chambre lit double">
+            <div class="titre_hôtel">Hôtel chez Amina</div>
+            <div class="prix">Nuit à partir de 96<span class="gras">€</span>
+            </div>
+            <div class="etoiles">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <a href="#" id="lien_afficher">Afficher plus</a>
+    </section>
+    <section id="aside_populaires"></section>
+    <section id="activites"></section>
+  </div>
+  <footer></footer>
+</main>
+</body>
+</html>
