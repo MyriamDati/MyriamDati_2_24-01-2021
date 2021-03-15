@@ -65,12 +65,12 @@ header{
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 #nav_logo{
   width: 100px;
   margin-right: auto;
-  margin-left: 50px;
-  margin-top: 20px;
+  margin-left: 20px;
 }
 header a{
   padding: 30px 50px;
@@ -92,13 +92,16 @@ header a{
   font-weight: bold;
   border-top: 3px solid transparent;
 }
-header a:hover{
+#bloc_activites:hover{
+  border-top: 3px solid #0065fc;
+}
+#bloc_inscrire:hover{
   border-top: 3px solid #0065fc;
 }
 
 /*Section 1*/
 #introduction{
-  padding: 50px;
+  padding: 20px;
   font-family: "Raleway", sans-serif;
 }
 #introduction h1{
@@ -346,7 +349,6 @@ margin-right: 5px;
 #activites h2{
   font-size: 20px;
   font-weight: bold;
-  margin-left: 30px;
   padding: 20px;
 }
 #bloc_cartes_activites{
@@ -472,7 +474,7 @@ footer{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 50px;
+  padding: 30px;
 }
 .bloc_contenu_footer{
   display: flex;
