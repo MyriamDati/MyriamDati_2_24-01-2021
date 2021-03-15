@@ -775,51 +775,12 @@ footer{
 }
 
 @media screen and (max-width:849px){
-main{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-header{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-nav{
-  order: 2;
-  padding: 30px;
-}
-#bloc_inscrire{
-  border-top: none;
-  float: right;
-  margin-right: 20px;
-}
-#bloc_hebergements{
-  border-top: none;
-  border-bottom: 3px solid #0065fc;
-  margin-left: 0px;
-  float: left;
-  text-align: center;
-}
-#bloc_activites{
-  border-top: none;
-  border-bottom: 3px solid #F2F2F2;
-  margin-right: 0px;
-  float: right;
-  text-align: center;
-}
 
 .loupe i{
   display: flex;
 }
 .rechercher{
   display: none;
-}
-
-#bloc_filtres{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 
 #aside_populaires{
