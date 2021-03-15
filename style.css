@@ -434,3 +434,28 @@ margin-right: 5px;
   object-fit: cover;
   object-position: top;
 }
+
+/*Footer*/
+footer{
+  background: #F2F2F2;
+}
+#bloc_footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.bloc_contenu_footer{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20%;
+}
+.bloc_contenu_footer a{
+  color: black;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.bloc_contenu_footer h3{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
