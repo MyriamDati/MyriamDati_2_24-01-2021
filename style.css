@@ -1004,10 +1004,19 @@ header{
 #menu{
   order: 3;
   justify-content: flex-start;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 header a{
   padding: 30px 50px;
+}
+#bloc_activites:hover{
+  border-top: none;
+  border-bottom: 3px solid #0065fc;
+}
+#bloc_inscrire:hover{
+  border-top: none;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0065fc;
 }
 
 form{
