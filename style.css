@@ -810,6 +810,10 @@ main{
   height: 150px;
   margin-bottom: 25px;
 }
+.bloc_populaires a{
+  display: flex;
+  flex-direction: row;
+}
 .bloc_populaires a img{
   width: 150px;
   height: 140px;
@@ -943,8 +947,8 @@ main{
 header{
   display: flex;
   justify-content: flex-start;
-  margin-right: 0px;
-  padding-top: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 header a{
   padding: 0px;
@@ -966,29 +970,31 @@ nav{
 #bloc_hebergements{
   border-top: none;
   border-bottom: 3px solid #0065fc;
-  padding-right: 120px;
-  padding-left: 120px;
+  padding-right: auto;
+  padding-left: auto;
   padding-bottom: 10px;
 }
 #bloc_activites{
   border-top: none;
   border-bottom: 3px solid #f2f2f2;
-  padding-right: 120px;
-  padding-left: 120px;
+  padding-right: 0px;
+  padding-left: 100px;
   padding-bottom: 10px;
 }
-
+#introduction{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
 #introduction h1{
   font-family: "Raleway700", sans-serif;
   font-weight: 700;
 }
-
 #search{
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
 }
-
 #bloc_filtres{
   display: flex;
   flex-direction: column;
