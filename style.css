@@ -53,6 +53,10 @@ width: 100%;
 margin: auto;
 }
 
+html{
+  overflow: hidden;
+}
+
 /* Barre de navigation */
 header{
   display: flex;
@@ -951,7 +955,7 @@ header{
   padding: 0px;
 }
 header a{
-  padding: 0px;
+  padding: 20vw;
 }
 nav{
   order: 3;
@@ -970,15 +974,11 @@ nav{
 #bloc_hebergements{
   border-top: none;
   border-bottom: 3px solid #0065fc;
-  padding-right: auto;
-  padding-left: auto;
   padding-bottom: 10px;
 }
 #bloc_activites{
   border-top: none;
   border-bottom: 3px solid #f2f2f2;
-  padding-right: 0px;
-  padding-left: 100px;
   padding-bottom: 10px;
 }
 #introduction{
