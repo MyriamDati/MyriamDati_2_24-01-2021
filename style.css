@@ -366,7 +366,7 @@ margin-right: 5px;
   padding: 20px;
   justify-content: center;
 }
-#titre_activites{
+.titre_activites{
   color: black;
   font-size: 13px;
   font-weight: bold;
