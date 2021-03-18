@@ -293,6 +293,7 @@ margin-right: 5px;
   width: 28vw;
   height: 600px;
   border-radius: 20px;
+  margin-right: 20px;
   background-color: #f2f2f2;
 }
 #bloc_titre_populaires{
@@ -374,6 +375,9 @@ margin-right: 5px;
   font-weight: bold;
   padding: 10px;
 }
+.colonne_activites1{
+  margin-right: 2%;
+}
 .bloc_activites1{
   display: flex;
   flex-direction: column;
@@ -382,7 +386,7 @@ margin-right: 5px;
   height: 50vh;
   border-radius: 20px;
   box-shadow: 1px 1px 12px #555;
-  margin-right: 30px;
+  margin-right: 2%;
 }
 .bloc_activites1 img{
   width: 22vw;
@@ -398,7 +402,7 @@ margin-right: 5px;
   height: 50vh;
   border-radius: 20px;
   box-shadow: 1px 1px 12px #555;
-  margin-right: 30px;
+  margin-right: 2%;
 }
 .bloc_activites4 img{
   width: 22vw;
@@ -414,7 +418,6 @@ margin-right: 5px;
   height: 23vh;
   border-radius: 20px;
   box-shadow: 1px 1px 12px #555;
-  margin-right: 30px;
   margin-bottom: 20px;
 }
 .bloc_activites2 img{
@@ -488,8 +491,9 @@ footer{
 .bloc_contenu_footer{
   display: flex;
   flex-direction: column;
-  margin-right: 18%;
+  margin-right: 20%;
 }
+
 .bloc_contenu_footer a{
   color: black;
   font-size: 15px;
@@ -500,3 +504,43 @@ footer{
   margin-bottom: 20px;
 }
 
+/*CSS modification sur desktop*/
+@media screen and (max-width:1300px){
+#hebergements{
+  height: 650px;
+}
+.bloc_hebergements .titre_hôtel{
+  font-size: 16px;
+}
+.bloc_hebergements .prix{
+  font-size: 14px;
+}
+
+#aside_populaires{
+  height: 650px;
+}
+.titre_hôtel_populaires{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.prix_populaires{
+  font-size: 13px;
+}
+.etoiles{
+  font-size: 10px;
+}
+
+  .bloc_contenu_footer{
+  margin-right: 15%;
+}
+}
+
+/*CSS pour tablette*/
+@media screen and (max-width:1024px){
+
+}
+
+/*CSS pour mobile*/
+@media screen and (max-width:576px){
+  
+}
