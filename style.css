@@ -154,8 +154,10 @@ form #texterecherche{
 }
 
 #bloc_filtres{
+  width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 #bloc_cont_filtres{
   display: flex;
@@ -550,7 +552,7 @@ header a{
 }
 #bloc_filtres{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
 }
 #bloc_cont_filtres{
@@ -752,7 +754,7 @@ header a{
   grid-column: 2;
   grid-row: 1;
 }
-}
+
 
 
 /*SECTION 1*/
