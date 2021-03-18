@@ -156,7 +156,6 @@ form #texterecherche{
 #bloc_filtres{
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 #bloc_cont_filtres{
   display: flex;
@@ -255,12 +254,11 @@ margin-right: 5px;
   margin-bottom: 20px;
 }
 .bloc_hebergements a img{
-  width: 17vw;
+  width: 100%;
   height: 16vh;
   border-radius: 20px 20px 0px 0px;
   display: block;
   margin: auto;
-  margin-top: 5px;
   margin-bottom: 5px;
   object-fit: cover;
 }
@@ -481,7 +479,7 @@ margin-right: 5px;
 
 /*Footer*/
 footer{
-  background: #F2F2F2;
+  background: #f2f2f2;
   width: 100%;
   margin-left: 0px;
   margin-right: 0px;
@@ -581,10 +579,10 @@ header a{
 }
 .bloc_hebergements{
   width: 28vw;
-  height: 30vh;
+  height: 25vh;
 }
 .bloc_hebergements a img{
-  width: 28vw;
+  width: 100%;
   height: 16vh;
 }
 .bloc_hebergements .titre_hôtel{
@@ -623,6 +621,10 @@ header a{
 }
 .prix_populaires{
   font-size: 0.7em;
+}
+.etoiles_pop{
+  margin-top: 10px;
+  font-size: 0.5em;
 }
 
 /*SECTION 3*/
@@ -716,5 +718,76 @@ header a{
 
 /*CSS pour mobile*/
 @media screen and (max-width:576px){
+/*BARRE DE NAVIGATION*/
+header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100% 100%;
+  padding-bottom: 50px;
+}
+header a{
+  padding: 0px 0px;
+}
+#nav_logo{
+  grid-column:1;
+  grid-row: 1;
+}
+#bloc_hebergements{
+  grid-column: 1;
+  grid-row: 2;
+  border-bottom: 3px solid #0065fc;
+}
+#bloc_hebergements a{
+  border: none;
+}
+#bloc_activites{
+  grid-column: 2;
+  grid-row: 2;
+  border-bottom: 3px solid #F2F2F2;
+}
+#bloc_activites a{
+  border: none;
+}
+#bloc_inscrire{
+  grid-column: 2;
+  grid-row: 1;
+}
+}
+
+
+/*SECTION 1*/
+  .loupe i{
+  display: flex;
+}
+.rechercher{
+  display: none;
+}
+#search{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#bloc_filtres{
+  display: flex;
+  flex-direction: column;
+}
+#titre_filtre{
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+#bloc_cont_filtres{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.filtre{
+  margin-bottom: 20px;
+}
+
+/*SECTION 2*/
+
 
 }
