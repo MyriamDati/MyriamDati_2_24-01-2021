@@ -718,10 +718,12 @@ header a{
 @media screen and (max-width:576px){
 /*BARRE DE NAVIGATION*/
 header{
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100% 100%;
   padding-bottom: 50px;
+  margin-top: 0px;
 }
 header a{
   padding: 0px 0px;
@@ -730,10 +732,15 @@ header a{
   grid-column:1;
   grid-row: 1;
 }
+.menu{
+  width: 100%;
+}
 #bloc_hebergements{
   grid-column: 1;
   grid-row: 2;
   border-bottom: 3px solid #0065fc;
+  margin-right: auto;
+  text-align: center;
 }
 #bloc_hebergements a{
   border: none;
@@ -742,6 +749,8 @@ header a{
   grid-column: 2;
   grid-row: 2;
   border-bottom: 3px solid #F2F2F2;
+  margin-left: auto;
+  text-align: center;
 }
 #bloc_activites a{
   border: none;
@@ -749,6 +758,8 @@ header a{
 #bloc_inscrire{
   grid-column: 2;
   grid-row: 1;
+  margin-left: auto;
+  padding-right: 20px;
 }
 
 
