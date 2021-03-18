@@ -13,9 +13,9 @@
 <main>
   <div id="bloc_page">
         <header>
-          <img src="images/logo/Reservia@3x.png" alt="Logo Réservia" id="nav_logo">
+          <img src="images/logo/Reservia@3x.png" alt="Logo Réservia" class="nav_logo">
 
-          <nav id="menu">
+          <nav class="menu">
           <div id="bloc_hebergements"><a href="#hebergements">Hébergements</a></div>
           <div id="bloc_activites"><a href="#activites">Activités</a></div>
           </nav>
@@ -24,29 +24,29 @@
           </div>
         </header>
 
-        <section id="introduction">
+        <section class="introduction">
           <h1>Trouvez votre hébergements pour des vacances de rêve</h1>
           <h2>En plein centre-ville ou en pleine nature</h2>
 
-          <form id="search" action="search" method="POST">
-            <span id="map"><i class="fas fa-map-marker-alt"></i></span>
-            <input type="search" name="recherche" id="texterecherche" placeholder="Marseille, France">
+          <form class="search" action="search" method="POST">
+            <span class="map"><i class="fas fa-map-marker-alt"></i></span>
+            <input type="search" name="recherche" class="texterecherche" placeholder="Marseille, France">
             <div class="loupe">
               <span class="rechercher">Rechercher</span>
               <span><i class="fas fa-search" aria-hidden="true"></i></span>
             </div>
           </form>
 
-          <div id="bloc_filtres">
-            <h2 id="titre_filtre">Filtres</h2>
-            <div id="bloc_cont_filtres">
+          <div class="bloc_filtres">
+            <h2 class="titre_filtre">Filtres</h2>
+            <div class="bloc_cont_filtres">
             <div class="filtre"><i class="fas fa-money-bill-wave"></i>Economique</div>
             <div class="filtre"><i class="fas fa-child"></i>Familial</div>
             <div class="filtre"><i class="fas fa-heart"></i>Romantique</div>
             <div class="filtre"><i class="fas fa-dog"></i>Animaux autorisés</div>              
             </div>
           </div>
-          <div id="bloc_information">
+          <div class="bloc_information">
             <span class="fa-stack" style="vertical-align: center;font-size: small;">
               <i class="far fa-circle fa-stack-2x" style="color: #f2f2f2;"></i>
               <i class="fas fa-info fa-stack-1x" style="color: #0065fc;"></i>
@@ -55,10 +55,10 @@
           </div>
         </section>
 
-        <div id="bloc_section_hebergement_populaires">
-        <section id="hebergements">
+        <div class="bloc_section_hebergement_populaires">
+        <section class="hebergements">
           <h2>Hébergements à Marseille</h2>
-          <div id="bloc_cartes_hebergements">
+          <div class="bloc_cartes_hebergements">
             <div class="bloc_hebergements">
               <a href="#">
                 <img src="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge avec lits superposés">
@@ -152,15 +152,15 @@
               </a>
             </div>
           </div>
-          <a href="#" id="lien_afficher">Afficher plus</a>
+          <a href="#" class="lien_afficher">Afficher plus</a>
         </section>
 
-        <section id="aside_populaires">
-          <div id="bloc_titre_populaires">
+        <section class="aside_populaires">
+          <div class="bloc_titre_populaires">
             <h2>Les plus populaires</h2>
             <i class="fas fa-chart-line"></i>
           </div>
-          <div id="bloc_cartes_populaires">
+          <div class="bloc_cartes_populaires">
             <div class="bloc_populaires">
               <a href="#">
                   <img src="images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="chambre lit double">
@@ -213,9 +213,9 @@
         </section>
         </div>
     
-        <section id="activites">
+        <section class="activites">
           <h2>Activités à Marseille</h2>
-          <div id="bloc_cartes_activites">
+          <div class="bloc_cartes_activites">
             <div class="bloc_activites1">
               <a href="#">
                 <img src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
@@ -261,7 +261,7 @@
   </div>
     
   <footer>
-    <div id="bloc_footer">
+    <div class="bloc_footer">
       <div class="bloc_contenu_footer">
         <h3>A propos</h3>
         <a href="#">Fonctionnement du site</a>

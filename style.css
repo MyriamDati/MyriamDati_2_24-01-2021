@@ -65,7 +65,7 @@ header{
   margin-top: 20px;
   margin-bottom: 20px;
 }
-#nav_logo{
+.nav_logo{
   width: 100px;
   margin-right: auto;
   margin-left: 20px;
@@ -73,7 +73,7 @@ header{
 header a{
   padding: 30px 50px;
 }
-#menu{
+.menu{
   display: flex;
   flex-direction: row;
 }
@@ -98,11 +98,11 @@ header a{
 }
 
 /*Section 1*/
-#introduction{
+.introduction{
   padding: 20px;
   font-family: "Raleway", sans-serif;
 }
-#introduction h1{
+.introduction h1{
   font-size: 20px;
   font-family: "Raleway700", sans-serif;
   font-weight: 700;
@@ -117,14 +117,14 @@ form{
   flex-direction: row;
   border-radius: 12px 0px 0px 12px;
 }
-form #map{
+form .map{
   background-color: #F2F2F2;
   border-radius: 10px 0px 0px 10px;
   justify-content: center;
   padding: 20px;
   font-size: 12px;
 }
-form #texterecherche{
+form .texterecherche{
   font-weight: bold;
   background-color: white;
   color: black;
@@ -153,18 +153,18 @@ form #texterecherche{
   display: none;
 }
 
-#bloc_filtres{
+.bloc_filtres{
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-#bloc_cont_filtres{
+.bloc_cont_filtres{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-#titre_filtre{
+.titre_filtre{
   font-size: 18px;
   font-weight: bold;
   margin-right: 20px;
@@ -198,7 +198,7 @@ form #texterecherche{
   color: #deebff;
   background-color: #0065fc;
 }
-#bloc_information {
+.bloc_information {
 margin-top: 10px;
 font-size: 13px;
 font-weight: 400;
@@ -206,22 +206,19 @@ display: flex;
 flex-direction: row;
 align-items: center;
 }
-#info{
-  font-size: 14px;
-}
 .fa-stack{
 margin-right: 5px;
 }
 
 /*SECTION 2*/
-#bloc_section_hebergement_populaires{
+.bloc_section_hebergement_populaires{
   display: flex;
   flex: row;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
-#hebergements{
+.hebergements{
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
@@ -233,12 +230,12 @@ margin-right: 5px;
   margin-left: 20px;
   margin-bottom: 40px;
 }
-#hebergements h2{
+.hebergements h2{
   font-size: 20px;
   font-weight: bold;
   padding: 20px;
 }
-#bloc_cartes_hebergements{
+.bloc_cartes_hebergements{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -284,14 +281,14 @@ margin-right: 5px;
   font-size: 11px;
   margin-left: 10px;
 }
-#lien_afficher{
+.lien_afficher{
   color: black;
   font-weight: bold;
   font-size: 18px;
   padding: 20px;
 }
 
-#aside_populaires{
+.aside_populaires{
   display: flex;
   flex-direction: column;
   width: 28vw;
@@ -300,7 +297,7 @@ margin-right: 5px;
   margin-right: 20px;
   background-color: #f2f2f2;
 }
-#bloc_titre_populaires{
+.bloc_titre_populaires{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -308,7 +305,7 @@ margin-right: 5px;
   font-size: 20px;
   font-weight: bold;
 }
-#bloc_cartes_populaires{
+.bloc_cartes_populaires{
   display: flex;
   flex-direction: column;
 }
@@ -352,7 +349,7 @@ margin-right: 5px;
 }
 
 /*SECTION 3*/
-#activites{
+.activites{
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -361,12 +358,12 @@ margin-right: 5px;
   margin-right: auto;
   margin-bottom: 30px;
 }
-#activites h2{
+.activites h2{
   font-size: 20px;
   font-weight: bold;
   padding: 20px;
 }
-#bloc_cartes_activites{
+.bloc_cartes_activites{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -486,7 +483,7 @@ footer{
   margin-left: 0px;
   margin-right: 0px;
 }
-#bloc_footer{
+.bloc_footer{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -509,7 +506,7 @@ footer{
 
 /*CSS modification sur desktop*/
 @media screen and (max-width:1300px){
-#hebergements{
+.hebergements{
   height: 650px;
 }
 .bloc_hebergements .titre_hôtel{
@@ -519,7 +516,7 @@ footer{
   font-size: 14px;
 }
 
-#aside_populaires{
+.aside_populaires{
   height: 650px;
 }
 .titre_hôtel_populaires{
@@ -533,7 +530,7 @@ footer{
   font-size: 10px;
 }
 
-  .bloc_contenu_footer{
+.bloc_contenu_footer{
   margin-right: 15%;
 }
 }
@@ -549,32 +546,31 @@ header a{
 /*Section 1*/
 .filtre{
   margin-bottom: 10px;
-}
-#bloc_filtres{
+}.bloc_filtres{
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
-#bloc_cont_filtres{
+.bloc_cont_filtres{
   margin-top: 10px;
 }
 
 /*SECTION 2*/
-#bloc_section_hebergement_populaires{
+.bloc_section_hebergement_populaires{
   display: flex;
   flex-direction: column-reverse;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
-#hebergements{
+.hebergements{
   width: 100%;
   height: auto;
   margin-right: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
 }
-#bloc_cartes_hebergements{
+.bloc_cartes_hebergements{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -593,17 +589,17 @@ header a{
 .bloc_hebergements .prix{
   font-size: 0.6em;
 }
-#lien_afficher{
+.lien_afficher{
   padding: 30px;
 }
 
-#aside_populaires{
+.aside_populaires{
   width: 100%;
   height: auto;
   margin-right: 0px;
   margin-bottom: 20px;
 }
-#bloc_cartes_populaires{
+.bloc_cartes_populaires{
   display: flex;
   flex-direction: row;
 }
@@ -630,7 +626,7 @@ header a{
 }
 
 /*SECTION 3*/
-#bloc_cartes_activites{
+.bloc_cartes_activites{
   margin: auto;
   justify-content: center;
 }
@@ -700,7 +696,7 @@ header a{
 }
 
 /*Footer*/
-#bloc_footer{
+.bloc_footer{
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
@@ -730,7 +726,7 @@ header{
 header a{
   padding: 0px 0px;
 }
-#nav_logo{
+.nav_logo{
   grid-column:1;
   grid-row: 1;
 }
@@ -758,28 +754,28 @@ header a{
 
 
 /*SECTION 1*/
-  .loupe i{
+.loupe i{
   display: flex;
 }
 .rechercher{
   display: none;
 }
-#search{
+.search{
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-#bloc_filtres{
+.bloc_filtres{
   display: flex;
   flex-direction: column;
 }
-#titre_filtre{
+.titre_filtre{
   margin-right: auto;
   margin-bottom: 20px;
 }
-#bloc_cont_filtres{
+.bloc_cont_filtres{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
