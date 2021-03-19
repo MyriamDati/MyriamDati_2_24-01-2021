@@ -66,9 +66,11 @@ header{
   margin-bottom: 20px;
 }
 .nav_logo{
-  width: 100px;
   margin-right: auto;
   margin-left: 20px;
+}
+.nav_logo img{
+  width: 100px;
 }
 header a{
   padding: 30px 50px;
@@ -79,21 +81,29 @@ header a{
 }
 #bloc_hebergements a{
   color: #0065fc;
+}
+#bloc_hebergements{
+  padding-top: 20px;
   border-top: 3px solid #0065fc;
 }
 #bloc_activites a{
   color: black;
+}
+#bloc_activites{
+  padding-top: 20px;
   border-top: 3px solid transparent;
+}
+#bloc_inscrire{
+  padding-top: 20px;
 }
 #bloc_inscrire a{
   color: #0065fc;
   font-weight: bold;
-  border-top: 3px solid transparent;
 }
-#bloc_activites a:hover{
+#bloc_activites:hover{
   border-top: 3px solid #0065fc;
 }
-#bloc_inscrire a:hover{
+#bloc_inscrire:hover{
   border-top: 3px solid #0065fc;
 }
 
@@ -505,7 +515,7 @@ footer{
 }
 
 /*CSS modification sur desktop*/
-@media screen and (max-width:1300px) and (min-width:1025px){
+@media screen and (max-width:1300px){
 .hebergements{
   height: 650px;
 }
@@ -537,7 +547,7 @@ footer{
 
 
 /*CSS pour tablette*/
-@media screen and (max-width:1024px) and (min-width:577px){
+@media screen and (max-width:1024px){
 /* Barre de navigation */
 header a{
   padding: 30px 20px;
@@ -715,7 +725,7 @@ header a{
 
 
 /*CSS pour mobile*/
-@media screen and (max-width:576px) and (min-width:300px){
+@media screen and (max-width:576px){
 main{
   width: 100%;
   margin-right: auto;
@@ -725,59 +735,71 @@ main{
 
 /*BARRE DE NAVIGATION*/
 header{
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100% 100%;
-  padding-bottom: 50px;
-  margin-top: 0px;
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.nav_logo{
+  flex-basis: 50%;
+  margin-left: 20px;
+}
+.nav_logo img{
+  width: 100px;
 }
 header a{
   padding: 0px 0px;
 }
-.nav_logo{
-  margin-left: 0px;
-  padding-left: 20px;
-  grid-column:1;
-  grid-row: 1;
-}
-nav{
-  width: 100%;
+.menu{
+  order: 3;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 #bloc_hebergements{
-  grid-column: 1;
-  grid-row: 2;
-  border-bottom: 3px solid #0065fc;
-  text-align: center;
+ width: 50%;
+ padding: 10px 50px;
+ border-bottom: 3px solid #0065fc;
 }
 #bloc_hebergements a{
-  border: none;
+  border-top: none;
 }
 #bloc_activites{
-  grid-column: 2;
-  grid-row: 2;
-  border-bottom: 3px solid #F2F2F2;
-  text-align: center;
+  width: 50%;
+  padding: 10px 50px;
+  border-bottom: 3px solid #f2f2f2;
 }
 #bloc_activites a{
-  border: none;
+  border-top: none;
 }
 #bloc_inscrire{
-  grid-column: 2;
-  grid-row: 1;
-  margin-left: auto;
   padding-right: 20px;
+}
+#bloc_inscrire a{
+  border-bottom: 3px solid transparent;
+  border-top: none;
+}
+#bloc_activites a:hover{
+  border-bottom: 3px solid #0065fc;
+  border-top: none;
+}
+#bloc_inscrire a:hover{
+  border-bottom: 3px solid #0065fc;
+  border-top: none;
 }
 
 
 
 /*SECTION 1*/
+.introduction{
+  margin-right: 0;
+}
 form{
   margin-right: 0px;
   margin-left: 0px;
+}
+.loupe{
+  border-radius: 10px;
+  margin-left: -5px;
 }
 .loupe i{
   display: flex;
@@ -808,6 +830,7 @@ form{
 }
 .filtre{
   margin-bottom: 20px;
+  padding-right: 10px;
 }
 
 
