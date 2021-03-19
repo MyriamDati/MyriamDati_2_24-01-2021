@@ -756,18 +756,14 @@ header a{
 #bloc_hebergements{
  width: 50%;
  padding: 10px 50px;
+ border-top: none;
  border-bottom: 3px solid #0065fc;
-}
-#bloc_hebergements a{
-  border-top: none;
 }
 #bloc_activites{
   width: 50%;
   padding: 10px 50px;
-  border-bottom: 3px solid #f2f2f2;
-}
-#bloc_activites a{
   border-top: none;
+  border-bottom: 3px solid #f2f2f2;
 }
 #bloc_inscrire{
   padding-right: 20px;
@@ -776,13 +772,14 @@ header a{
   border-bottom: 3px solid transparent;
   border-top: none;
 }
-#bloc_activites a:hover{
+#bloc_activites:hover{
   border-bottom: 3px solid #0065fc;
   border-top: none;
 }
-#bloc_inscrire a:hover{
+#bloc_inscrire:hover{
   border-bottom: 3px solid #0065fc;
   border-top: none;
+  padding-bottom: 10px;
 }
 
 
@@ -792,8 +789,9 @@ header a{
   margin-right: 0;
 }
 form{
-  margin-right: 0px;
-  margin-left: 0px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .loupe{
   border-radius: 10px;
@@ -908,7 +906,7 @@ form{
   font-size: 0.9em;
 }
 .etoiles_pop{
-  margin-top: 50px;
+  margin-top: 20%;
   font-size: 0.7em;
 }
 
@@ -918,22 +916,24 @@ form{
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding: 0px;
 }
 .colonne_activites1{
   display: flex;
   flex-direction: column;
-  margin-right: 0%;
+  margin-right: auto;
 }
 .colonne_activites2{
   display: flex;
   flex-direction: column;
-  margin-right: 0%;
+  margin-right: auto;
 }
 .bloc_activites1{
   width: 90%;
   height: 20vh;
   margin-bottom: 20px;
-  margin-right: 0%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bloc_activites1 img{
   width: 100%;
@@ -943,7 +943,8 @@ form{
   width: 90%;
   height: 20vh;
   margin-bottom: 20px;
-  margin-right: 0%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bloc_activites4 img{
   width: 100%;
@@ -953,6 +954,8 @@ form{
   width: 90%;
   height: 20vh;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bloc_activites2 img{
   width: 100%;
@@ -962,6 +965,8 @@ form{
   width: 90%;
   height: 20vh;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bloc_activites3 img{
   width: 100%;
@@ -971,6 +976,8 @@ form{
   width: 90%;
   height: 20vh;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bloc_activites5 img{
   width: 100%;
@@ -980,6 +987,8 @@ form{
   width: 90%;
   height: 20vh;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bloc_activites6 img{
   width: 100%;
