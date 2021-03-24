@@ -513,7 +513,7 @@ footer{
 }
 
 /*CSS modification sur desktop*/
-@media screen and (max-width:1300px){
+@media screen and (max-width:1200px){
 #hebergements{
   height: 650px;
 }
@@ -545,7 +545,7 @@ footer{
 
 
 /*CSS pour tablette*/
-@media screen and (max-width:1024px){
+@media screen and (max-width:768px){
 /* Barre de navigation */
 header a{
   padding: 30px 20px;
@@ -584,11 +584,11 @@ header a{
 }
 .bloc_hebergements{
   width: 28vw;
-  height: 25vh;
+  height: 20vh;
 }
 .bloc_hebergements a img{
   width: 100%;
-  height: 16vh;
+  height: 13vh;
 }
 .bloc_hebergements .titre_hôtel{
   font-size: 0.7em;
@@ -611,21 +611,22 @@ header a{
   flex-direction: row;
 }
 .bloc_populaires{
-  width: 25vw;
-  height: 20vh;
+  width: 30vw;
+  height: 15vh;
 }
 .bloc_populaires a img{
-  width: 10vw;
-  height: 19vh;
+  width: 15vw;
+  height: 15vh;
+  margin: 0px;
 }
 .bloc_populaires .contenu_pop{
   padding: 5px;
 }
 .titre_hôtel_populaires{
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 .prix_populaires{
-  font-size: 0.7em;
+  font-size: 0.5em;
 }
 .etoiles_pop{
   margin-top: 10px;
@@ -652,54 +653,54 @@ header a{
 }
 .bloc_activites1{
   width: 29vw;
-  height: 40vh;
+  height: 30vh;
   margin-bottom: 20px;
 }
 .bloc_activites1 img{
   width: 29vw;
-  height: 35vh;
+  height: 25vh;
 }
 .bloc_activites4{
   width: 29vw;
-  height: 40vh;
+  height: 30vh;
 }
 .bloc_activites4 img{
   width: 29vw;
-  height: 35vh;
+  height: 25vh;
 }
 .bloc_activites2{
   width: 29vw;
-  height: 40vh;
+  height: 30vh;
   margin-right: 3%;
 }
 .bloc_activites2 img{
   width: 29vw;
-  height: 35vh;
+  height: 25vh;
 }
 .bloc_activites3{
   width: 29vw;
-  height: 40vh;
+  height: 30vh;
 }
 .bloc_activites3 img{
   width: 29vw;
-  height: 35vh;
+  height: 25vh;
 }
 .bloc_activites5{
   width: 29vw;
-  height: 40vh;
+  height: 30vh;
   margin-right: 3%;
 }
 .bloc_activites5 img{
   width: 29vw;
-  height: 35vh;
+  height: 25vh;
 }
 .bloc_activites6{
   width: 29vw;
-  height: 40vh;
+  height: 30vh;
 }
 .bloc_activites6 img{
   width: 29vw;
-  height: 35vh;
+  height: 25vh;
 }
 
 /*Footer*/
@@ -722,7 +723,7 @@ header a{
 
 
 /*CSS pour mobile*/
-@media screen and (max-width:576px){
+@media screen and (max-width:600px){
 main{
   width: 100%;
   margin-right: auto;
