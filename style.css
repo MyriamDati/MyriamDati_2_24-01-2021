@@ -48,7 +48,8 @@ a{
 
 main{
 font-family: "Raleway", sans-serif;
-width: auto;
+max-width: 1440px;
+justify-content: center;
 margin: auto;
 }
 
@@ -233,12 +234,12 @@ align-items: center;
   flex-direction: column;
   background-color: #f2f2f2;
   width: 65vw;
-  height: 600px;
+  height: fit-content;
   border-radius: 20px;
   float: left;
   margin-right: 50px;
   margin-left: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 #hebergements h2{
   font-size: 20px;
@@ -255,7 +256,6 @@ align-items: center;
 .bloc_hebergements{
   width: 30%;
   height: 28vh;
-  padding: 3px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 1px 1px 12px #555;
@@ -293,14 +293,14 @@ align-items: center;
   color: black;
   font-weight: bold;
   font-size: 18px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .aside_populaires{
   display: flex;
   flex-direction: column;
   width: 28vw;
-  height: 600px;
+  height: fit-content;
   border-radius: 20px;
   margin-right: 20px;
   background-color: #f2f2f2;
@@ -316,6 +316,7 @@ align-items: center;
 .bloc_cartes_populaires{
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 .bloc_populaires{
   width: 25vw;
@@ -328,10 +329,10 @@ align-items: center;
 }
 .bloc_populaires a img{
   width: 10vw;
-  height: 16.5vh;
+  height: 17vh;
   border-radius: 20px 0px 0px 20px;
   display: block;
-  margin: 5px;
+  margin: 3px;
   object-fit: cover;
 }
 .bloc_populaires a{
@@ -514,8 +515,10 @@ footer{
 
 /*CSS modification sur desktop*/
 @media screen and (max-width:1200px){
-#hebergements{
-  height: 650px;
+
+.bloc_hebergements{
+  width: 30%;
+  height: 30vh;
 }
 .bloc_hebergements .titre_hôtel{
   font-size: 16px;
@@ -524,8 +527,14 @@ footer{
   font-size: 14px;
 }
 
-.aside_populaires{
-  height: 650px;
+.bloc_populaires{
+  width: 25vw;
+  height: 19vh;
+}
+.bloc_populaires a img{
+  width: 10vw;
+  height: 19vh;
+  margin: 0px;
 }
 .titre_hôtel_populaires{
   font-size: 15px;
@@ -542,7 +551,60 @@ footer{
   margin-right: 15%;
 }
 }
+@media screen and (max-width:938px){
+.etoiles_pop{
+  margin-top: 30px;
+}
 
+  .bloc_activites1{
+  width: 22vw;
+  height: 50vh;
+}
+.bloc_activites1 img{
+  width: 100%;
+  height: 45vh;
+}
+.bloc_activites4{
+  width: 22vw;
+  height: 50vh;
+}
+.bloc_activites4 img{
+  width: 100%;
+  height: 45vh;
+}
+.bloc_activites2{
+  width: 22vw;
+  height: 23vh;
+}
+.bloc_activites2 img{
+  width: 100%;
+  height: 18vh;
+}
+.bloc_activites3{
+  width: 22vw;
+  height: 24vh;
+}
+.bloc_activites3 img{
+  width: 100%;
+  height: 19vh;
+}
+.bloc_activites5{
+  width: 22vw;
+  height: 23vh;
+}
+.bloc_activites5 img{
+  width: 100%;
+  height: 18vh;
+}
+.bloc_activites6{
+  width: 22vw;
+  height: 24vh;
+}
+.bloc_activites6 img{
+  width: 100%;
+  height: 19vh;
+}
+}
 
 /*CSS pour tablette*/
 @media screen and (max-width:768px){
@@ -573,7 +635,6 @@ header a{
 }
 #hebergements{
   width: 100%;
-  height: auto;
   margin-right: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
@@ -584,7 +645,7 @@ header a{
 }
 .bloc_hebergements{
   width: 28vw;
-  height: 20vh;
+  height: 24vh;
 }
 .bloc_hebergements a img{
   width: 100%;
@@ -602,13 +663,13 @@ header a{
 
 .aside_populaires{
   width: 100%;
-  height: auto;
   margin-right: 0px;
   margin-bottom: 20px;
 }
 .bloc_cartes_populaires{
   display: flex;
   flex-direction: row;
+  margin-bottom: 10px;
 }
 .bloc_populaires{
   width: 30vw;
@@ -720,6 +781,7 @@ header a{
 }
 
 }
+
 
 
 /*CSS pour mobile*/
