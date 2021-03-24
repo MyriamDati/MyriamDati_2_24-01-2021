@@ -645,7 +645,7 @@ header a{
 }
 .bloc_hebergements{
   width: 28vw;
-  height: 24vh;
+  height: 20vh;
 }
 .bloc_hebergements a img{
   width: 100%;
@@ -673,15 +673,16 @@ header a{
 }
 .bloc_populaires{
   width: 30vw;
-  height: 15vh;
+  height: 12vh;
 }
 .bloc_populaires a img{
   width: 15vw;
-  height: 15vh;
+  height: 12vh;
   margin: 0px;
 }
 .bloc_populaires .contenu_pop{
   padding: 5px;
+  padding-top: 20%;
 }
 .titre_hôtel_populaires{
   font-size: 0.7em;
