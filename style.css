@@ -48,7 +48,7 @@ a{
 
 main{
 font-family: "Raleway", sans-serif;
-max-width: 1440px;
+width: 100%;
 justify-content: center;
 margin: auto;
 }
@@ -58,53 +58,46 @@ margin: auto;
 header{
   display: flex;
   flex-direction: row;
+  flex: 1 100%;
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 .nav_logo{
   margin-right: auto;
   margin-left: 20px;
+  flex: 1 50%;
 }
 .nav_logo img{
   width: 100px;
 }
 header a{
   padding: 30px 50px;
+  flex: 1 50%;
 }
 .menu{
   display: flex;
   flex-direction: row;
 }
-#bloc_hebergements a{
-  color: #0065fc;
-}
-#bloc_hebergements{
-  padding-top: 20px;
+.menu a:hover{
   border-top: 3px solid #0065fc;
 }
-#bloc_activites a{
+#menu_hebergements{
+  color: #0065fc;
+  border-top: 3px solid #0065fc;
+}
+#menu_activites{
   color: black;
-}
-#bloc_activites{
-  padding-top: 20px;
-  border-top: 3px solid transparent;
-}
-#bloc_inscrire{
-  padding-top: 20px;
 }
 #bloc_inscrire a{
   color: #0065fc;
   font-weight: bold;
 }
-#bloc_activites:hover{
-  border-top: 3px solid #0065fc;
-}
-#bloc_inscrire:hover{
+.menu a:hover{
   border-top: 3px solid #0065fc;
 }
 
@@ -302,7 +295,6 @@ align-items: center;
   width: 28vw;
   height: fit-content;
   border-radius: 20px;
-  margin-right: 20px;
   background-color: #f2f2f2;
 }
 .bloc_titre_populaires{
@@ -784,7 +776,6 @@ header a{
 }
 
 
-
 /*CSS pour mobile*/
 @media screen and (max-width:600px){
 main{
@@ -812,37 +803,25 @@ header a{
 }
 .menu{
   order: 3;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  flex: 1 100%;
+  display: flex;
+  margin-top: 20px;
 }
-#bloc_hebergements{
- width: 50%;
- padding: 10px 50px;
- border-top: none;
- border-bottom: 3px solid #0065fc;
-}
-#bloc_activites{
-  width: 50%;
-  padding: 10px 50px;
-  border-top: none;
+.menu a{
+  flex: 1 50%;
+  text-align: center;
   border-bottom: 3px solid #f2f2f2;
+  padding-bottom: 10px;
+}
+.menu a:hover{
+  border-bottom: 3px solid #0065fc;
+  border-top: none;
+}
+#menu_hebergements{
+  border-top: none;
 }
 #bloc_inscrire{
   padding-right: 20px;
-}
-#bloc_inscrire a{
-  border-bottom: 3px solid transparent;
-  border-top: none;
-}
-#bloc_activites:hover{
-  border-bottom: 3px solid #0065fc;
-  border-top: none;
-}
-#bloc_inscrire:hover{
-  border-bottom: 3px solid #0065fc;
-  border-top: none;
-  padding-bottom: 10px;
 }
 
 
