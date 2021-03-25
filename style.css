@@ -174,7 +174,8 @@ form .texterecherche{
   margin-right: 20px;
 }
 .filtre{
-  font-size: 16px;
+  font-size: 15px;
+  height: 43px;
   font-weight: bold;
   display: flex;
   flex-direction: row;
@@ -187,15 +188,16 @@ form .texterecherche{
   justify-content: center;
 }
 .filtre i{
-  font-size: 15px;
-  align-items: center;
-  padding: 13px;
-  border-radius: 20px;
+  width: 16px;
+  align-content: center;
+  padding: 16px;
+  border-radius: 100px;
   color: #0065fc;
   background-color: #deebff;
   cursor: pointer;
   margin-right: 5px;
   margin-left: -5px;
+  text-align: center;
 }
 .filtre:hover i{
   color: #deebff;
