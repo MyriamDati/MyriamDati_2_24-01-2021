@@ -208,7 +208,7 @@ align-items: center;
 /*SECTION 2*/
 .bloc_section_hebergement_populaires{
   display: flex;
-  flex: row;
+  flex-direction: row;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
