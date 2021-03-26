@@ -339,7 +339,7 @@ align-items: center;
 .etoiles_pop{
   color: #0065fc;
   font-size: 11px;
-  margin-top: 50px;
+  margin-top: 30%;
 }
 
 /*SECTION 3*/
@@ -358,11 +358,11 @@ align-items: center;
   padding: 20px;
 }
 .bloc_cartes_activites{
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 20px;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .titre_activites{
   color: black;
@@ -643,7 +643,7 @@ header a{
 }
 .bloc_hebergements{
   width: 28vw;
-  height: 20vh;
+  height: 23vh;
 }
 .bloc_hebergements a img{
   width: 100%;
@@ -680,7 +680,6 @@ header a{
 }
 .bloc_populaires .contenu_pop{
   padding: 5px;
-  padding-top: 20%;
 }
 .titre_hôtel_populaires{
   font-size: 0.7em;
@@ -689,7 +688,6 @@ header a{
   font-size: 0.5em;
 }
 .etoiles_pop{
-  margin-top: 10px;
   font-size: 0.5em;
 }
 
