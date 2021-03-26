@@ -80,15 +80,12 @@ header a{
   display: flex;
   flex-direction: row;
 }
-.menu a:hover{
-  border-top: 3px solid #0065fc;
+.menu a{
+  color: black;
 }
-#menu_hebergements{
+.menu a:hover{
   color: #0065fc;
   border-top: 3px solid #0065fc;
-}
-#menu_activites{
-  color: black;
 }
 #bloc_inscrire a{
   color: #0065fc;
@@ -478,6 +475,9 @@ footer{
   color: black;
   font-size: 15px;
   margin-bottom: 10px;
+}
+.bloc_contenu_footer a:hover{
+  font-weight: bold;
 }
 .bloc_contenu_footer h3{
   font-weight: bold;
