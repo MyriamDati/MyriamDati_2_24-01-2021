@@ -859,7 +859,6 @@ form .texterecherche{
 
 .bloc_filtres{
   flex-direction: column;
-  align-content: left;
 }
 .titre_filtre{
   margin-bottom: 10px;
