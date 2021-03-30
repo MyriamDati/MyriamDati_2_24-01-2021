@@ -68,13 +68,13 @@ header{
 }
 .nav_logo{
   margin-right: auto;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 .nav_logo img{
   width: 100px;
 }
 header a{
-  padding: 30px 50px;
+  padding: 30px 40px;
 }
 .menu{
   display: flex;
@@ -93,29 +93,31 @@ header a{
 }
 /*Section 1*/
 .introduction{
-  padding: 20px;
   font-family: "Raleway", sans-serif;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 .introduction h1{
   font-size: 20px;
   font-family: "Raleway700", sans-serif;
   font-weight: 700;
   margin-bottom: 5px;
+  margin-left: 25px;
+}
+.introduction h2{
+  margin-left: 25px;
 }
 
 form{
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-left: 25px;
   height: 50px;
   display: flex;
   flex-direction: row;
-  border-radius: 12px 0px 0px 12px;
+  border-radius: 20px 0px 0px 20px;
 }
 form .map{
   background-color: #F2F2F2;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 20px 0px 0px 20px;
   justify-content: center;
   padding: 20px;
   font-size: 12px;
@@ -125,9 +127,7 @@ form .texterecherche{
   background-color: white;
   color: black;
   font-size: 15px;
-  padding: 20px 40px;
-  margin-left: -5px;
-  text-align: center;
+  padding: 20px;
   border: 1px solid  #f2f2f2;
 }
 .loupe{
@@ -197,7 +197,9 @@ form .texterecherche{
 }
 
 .bloc_information {
-margin-top: 10px;
+margin-top: 30px;
+margin-bottom: 40px;
+margin-left: 20px;
 font-size: 13px;
 font-weight: 400;
 display: flex;
@@ -213,8 +215,6 @@ align-items: center;
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
   justify-content: center;
 }
 #hebergements{
@@ -225,36 +225,38 @@ align-items: center;
   height: fit-content;
   border-radius: 20px;
   float: left;
-  margin-right: 50px;
+  margin-right: 30px;
   margin-bottom: 20px;
 }
 #hebergements h2{
   font-size: 20px;
   font-weight: bold;
-  padding: 20px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
 }
 .bloc_cartes_hebergements{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: auto;
+  margin-left: 30px;
   margin-right: auto;
+  justify-content: center;
 }
 .bloc_hebergements{
-  width: 30%;
+  width: 29%;
   height: 28vh;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 1px 1px 12px #555;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-bottom: 35px;
 }
 .bloc_hebergements a img{
-  width: 100%;
+  width: 97%;
   height: 16vh;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
+  margin: 4px;
 }
 .bloc_hebergements .titre_hôtel{
   color: black;
@@ -280,13 +282,14 @@ align-items: center;
   color: black;
   font-weight: bold;
   font-size: 18px;
-  padding: 16px;
+  padding-left: 40px;
+  padding-bottom: 40px;
 }
 
 .aside_populaires{
   display: flex;
   flex-direction: column;
-  width: 28vw;
+  width: 30vw;
   height: fit-content;
   border-radius: 20px;
   background-color: #f2f2f2;
@@ -294,28 +297,33 @@ align-items: center;
 .bloc_titre_populaires{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 20px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
+}
+.bloc_titre_populaires i{
+  margin-left: 35%;
 }
 .bloc_cartes_populaires{
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .bloc_populaires{
   width: 25vw;
-  height: 18vh;
+  height: 19vh;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 1px 1px 12px #555;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .bloc_populaires a img{
   width: 10vw;
   height: 18vh;
+  margin: 4px;
   border-radius: 20px 0px 0px 20px;
   object-fit: cover;
 }
@@ -347,8 +355,6 @@ align-items: center;
   flex-direction: column;
   width: 100%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 30px;
 }
 #activites h2{
@@ -378,7 +384,7 @@ align-items: center;
   width: 22vw;
   height: 60vh;
   border-radius: 20px;
-  box-shadow: 1px 1px 12px #555;
+  box-shadow: 0px 5px 5px #CDCAD1;
   margin-right: 2%;
 }
 .bloc_activites img{
@@ -394,8 +400,8 @@ align-items: center;
   width: 23vw;
   height: 33vh;
   border-radius: 20px;
-  box-shadow: 1px 1px 12px #555;
-  margin-bottom: 20px;
+  box-shadow: 0px 5px 5px #CDCAD1;
+  margin-bottom: 40px;
 }
 .bloc_activites2 img{
   width: 23vw;
@@ -408,13 +414,13 @@ align-items: center;
   flex-direction: column;
   background-color: white;
   width: 23vw;
-  height: 24vh;
+  height: 22vh;
   border-radius: 20px;
-  box-shadow: 1px 1px 12px #555;
+  box-shadow: 0px 5px 5px #CDCAD1;
 }
 .bloc_activites3 img{
   width: 23vw;
-  height: 19vh;
+  height: 17vh;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
   object-position: top;
@@ -426,8 +432,8 @@ align-items: center;
   width: 23vw;
   height: 29vh;
   border-radius: 20px;
-  box-shadow: 1px 1px 12px #555;
-  margin-bottom: 20px;
+  box-shadow: 0px 5px 5px #CDCAD1;
+  margin-bottom: 40px;
 }
 .bloc_activites5 img{
   width: 23vw;
@@ -441,14 +447,14 @@ align-items: center;
   flex-direction: column;
   background-color: white;
   width: 23vw;
-  height: 29vh;
+  height: 26vh;
   border-radius: 20px;
-  box-shadow: 1px 1px 12px #555;
+  box-shadow: 0px 5px 5px #CDCAD1;
   margin-bottom: 20px;
 }
 .bloc_activites6 img{
   width: 23vw;
-  height: 24vh;
+  height: 21vh;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
   object-position: top;
@@ -613,15 +619,32 @@ header a{
 }
 
 /*Section 1*/
-.filtre{
+.titre_filtre{
+  margin-right: auto;
   margin-bottom: 10px;
-}.bloc_filtres{
+}
+.bloc_filtres{
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
 }
 .bloc_cont_filtres{
-  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: auto;
+}
+.filtre{
+  margin-right: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+.bloc_information {
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+font-size: 13px;
+display: flex;
+flex-direction: row;
+align-items: center;
 }
 
 /*SECTION 2*/
@@ -637,6 +660,11 @@ header a{
   margin-right: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
+  border-radius: 0px;
+}
+#hebergements h2{
+  padding-top: 20px;
+  padding-left: 20px;
 }
 .bloc_cartes_hebergements{
   display: flex;
@@ -644,11 +672,12 @@ header a{
 }
 .bloc_hebergements{
   width: 28vw;
-  height: 23vh;
+  height: 24vh;
 }
 .bloc_hebergements a img{
-  width: 100%;
+  width: 97%;
   height: 13vh;
+  margin: 4px;
 }
 .bloc_hebergements .titre_hôtel{
   font-size: 0.7em;
@@ -656,28 +685,40 @@ header a{
 .bloc_hebergements .prix{
   font-size: 0.6em;
 }
+.bloc_hebergements .etoiles{
+  font-size: 9px;
+}
 .lien_afficher{
-  padding: 30px;
+  padding-left: 30px;
 }
 
 .aside_populaires{
   width: 100%;
-  margin-right: 0px;
+  height: 190px;
   margin-bottom: 20px;
+  border-radius: 0px;
+}
+.bloc_titre_populaires{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.bloc_titre_populaires i{
+  margin-left: auto;
+  margin-right: 30px;
 }
 .bloc_cartes_populaires{
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .bloc_populaires{
   width: 30vw;
-  height: 12vh;
+  height: 15vh;
 }
 .bloc_populaires a img{
   width: 15vw;
-  height: 12vh;
-  margin: 0px;
+  height: 14vh;
+  margin: 3px;
 }
 .bloc_populaires .contenu_pop{
   padding: 5px;
@@ -699,7 +740,7 @@ header a{
   justify-content: center;
 }
 .titre_activites{
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 .colonne_activites1{
   display: flex;
@@ -771,9 +812,7 @@ header a{
 .bloc_contenu_footer h3{
   font-size: 0.9em;
 }
-
 }
-
 
 /*CSS pour mobile*/
 @media screen and (max-width:600px){
@@ -785,13 +824,19 @@ main{
 }
 
 /*SECTION 1*/
-.introduction{
-  margin-right: 0;
-}
 form{
   width: 50%;
   margin-right: auto;
   margin-left: auto;
+}
+form .texterecherche{
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  padding: 20px;
+  padding-right: 0px;
+  border: 1px solid  #f2f2f2;
 }
 .loupe{
   border-radius: 10px;
@@ -810,23 +855,25 @@ form{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .bloc_filtres{
-  display: flex;
   flex-direction: column;
+  align-content: left;
 }
 .titre_filtre{
+  margin-bottom: 10px;
   margin-right: auto;
-  margin-bottom: 20px;
 }
 .bloc_cont_filtres{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: 20px;
 }
 .filtre{
-  margin-bottom: 20px;
+  font-size: 13px;
+  margin-right: 10px;
   padding-right: 10px;
+  margin-bottom: 10px;
 }
 
 /*SECTION 2*/
@@ -839,25 +886,36 @@ form{
   justify-content: center;
 }
 #hebergements{
-  width: 100%;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  flex-direction: column;
   background-color: white;
+}
+#hebergements h2{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 .bloc_cartes_hebergements{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 .bloc_hebergements{
-  width: 90%;
-  height: auto;
-  padding: 3px;
+  width: 95%;
+  height: 37vh;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 5px #CDCAD1;
 }
 .bloc_hebergements a img{
-  width: 100%;
-  height: 16vh;
+  width: 98%;
+  height: 23vh;
+  margin: 6px;
 }
 .bloc_hebergements .titre_hôtel{
   font-size: 1.1em;
@@ -866,28 +924,50 @@ form{
   font-size: 0.9em;
 }
 .bloc_hebergements .etoiles{
-  font-size: 0.7em;
+  font-size: 0.6em;
   margin-bottom: 10px;
 }
 .lien_afficher{
-  padding: 20px;
+  padding: 0px;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: 0px;
 }
+
 
 .aside_populaires{
   width: 100%;
   height: auto;
+  border-radius: 0px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
+}
+.bloc_titre_populaires{
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bloc_titre_populaires i{
+  margin-left: auto;
+  margin-right: 30px;
 }
 .bloc_cartes_populaires{
   display: flex;
   flex-direction: column;
 }
 .bloc_populaires{
-  width: 90%;
+  width: 100%;
   height: 19vh;
-  padding: 3px;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
 }
 .bloc_populaires a img{
   width: 40%;
@@ -898,14 +978,14 @@ form{
   padding: 20px 20px;
 }
 .titre_hôtel_populaires{
-  font-size: 1.1em;
+  font-size: 0.8em;
 }
 .prix_populaires{
-  font-size: 0.9em;
+  font-size: 0.7em;
 }
 .etoiles_pop{
-  margin-top: 20%;
-  font-size: 0.7em;
+  margin-top: 50%;
+  font-size: 0.6em;
 }
 
 
@@ -915,6 +995,13 @@ form{
   margin-right: auto;
   margin-left: auto;
   padding: 0px;
+}
+.titre_activites{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 10px;
 }
 .colonne_activites1{
   display: flex;
@@ -927,62 +1014,62 @@ form{
   margin-right: auto;
 }
 .bloc_activites{
-  width: 90%;
-  height: 20vh;
+  width: 95%;
+  height: 28vh;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 .bloc_activites img{
   width: 100%;
-  height: 15vh;
+  height: 23vh;
   object-position: center 35%;
 }
 .bloc_activites2{
-  width: 90%;
-  height: 20vh;
+  width: 95%;
+  height: 28vh;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 .bloc_activites2 img{
   width: 100%;
-  height: 15vh;
+  height: 23vh;
 }
 .bloc_activites3{
-  width: 90%;
-  height: 20vh;
+  width: 95%;
+  height: 28vh;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 .bloc_activites3 img{
   width: 100%;
-  height: 15vh;
+  height: 23vh;
   object-position: center 40%;
 }
 .bloc_activites5{
-  width: 90%;
-  height: 20vh;
+  width: 95%;
+  height: 28vh;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 .bloc_activites5 img{
   width: 100%;
-  height: 15vh;
+  height: 23vh;
   object-position: center 20%;
 }
 .bloc_activites6{
-  width: 90%;
-  height: 20vh;
+  width: 95%;
+  height: 28vh;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 .bloc_activites6 img{
   width: 100%;
-  height: 15vh;
+  height: 23vh;
   object-position: center 40%;
 }
 
@@ -995,6 +1082,7 @@ footer{
 .bloc_footer{
   display: flex;
   flex-direction: column;
+  padding-left: 20px;
 }
 .bloc_contenu_footer{
   margin-right: 0%;
