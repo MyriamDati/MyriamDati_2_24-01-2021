@@ -287,6 +287,12 @@ form{
 .titre_filtre{
   padding-left: 0px;
 }
+.bloc_information {
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+font-size: 13px;
+}
 
 /*SECTION 2*/
 .aside_populaires{
