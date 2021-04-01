@@ -77,16 +77,11 @@ align-items: center;
   margin-left: auto;
 }
 #hebergements{
-  width: 100%;
   margin-right: 0 auto;
   margin-left: 0 auto;
   margin-bottom: 20px;
   border-radius: 0px;
   margin-top: 20px;
-}
-#hebergements h2{
-  padding-top: 20px;
-  padding-left: 20px;
 }
 .bloc_cartes_hebergements{
   display: flex;
@@ -98,7 +93,7 @@ align-items: center;
 }
 .bloc_hebergements{
   width: 30%;
-  height: 21vh;
+  height: 25vh;
 }
 .bloc_hebergements a img{
   width: 97%;
@@ -118,18 +113,9 @@ align-items: center;
 }
 
 .aside_populaires{
-  width: 100%;
   height: fit-content;
   margin-bottom: 20px;
   border-radius: 0px;
-}
-.bloc_titre_populaires{
-  padding-top: 20px;
-  padding-left: 20px;
-}
-.bloc_titre_populaires i{
-  margin-left: auto;
-  margin-right: 30px;
 }
 .bloc_cartes_populaires{
   display: flex;
@@ -137,7 +123,7 @@ align-items: center;
   margin-bottom: 0px;
 }
 .bloc_populaires{
-  width: 30vw;
+  width: 29vw;
   height: 15vh;
 }
 .bloc_populaires a img{
@@ -154,7 +140,6 @@ align-items: center;
   font-size: 0.5em;
 }
 .etoiles_pop{
-  margin-top: 15%;
   font-size: 0.5em;
 }
 
@@ -162,11 +147,11 @@ align-items: center;
 #activites h2{
   font-size: 20px;
   font-weight: bold;
-  padding: 15px;
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 .bloc_cartes_activites{
-  margin: auto;
+  margin: 0;
   justify-content: center;
 }
 .titre_activites{
@@ -234,6 +219,7 @@ align-items: center;
   justify-content: center;
 }
 .bloc_contenu_footer{
+  margin-left: 20px;
   margin-right: auto;
 }
 .bloc_contenu_footer a{
