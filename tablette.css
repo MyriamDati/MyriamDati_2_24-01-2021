@@ -113,35 +113,33 @@ align-items: center;
 }
 
 .aside_populaires{
+  flex: 1 100%;
   height: fit-content;
-  margin-bottom: 20px;
   border-radius: 0px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.bloc_titre_populaires{
+  font-size: 25px;
 }
 .bloc_cartes_populaires{
   display: flex;
-  flex-direction: row;
-  margin-bottom: 0px;
+  flex-direction: column;
 }
 .bloc_populaires{
-  width: 29vw;
+  width: 100%;
   height: 15vh;
+  margin-bottom: 15px;
 }
 .bloc_populaires a img{
-  width: 15vw;
+  width: 40%;
   height: 14vh;
 }
 .bloc_populaires .contenu_pop{
-  padding: 5px;
+  padding: 0px 10px;
+  font-size: 120%;
 }
-.titre_hôtel_populaires{
-  font-size: 0.7em;
-}
-.prix_populaires{
-  font-size: 0.5em;
-}
-.etoiles_pop{
-  font-size: 0.5em;
-}
+
 
 /*SECTION 3*/
 #activites h2{

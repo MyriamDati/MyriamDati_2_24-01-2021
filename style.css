@@ -281,7 +281,7 @@ align-items: center;
   color: black;
   font-weight: bold;
   font-size: 18px;
-  padding-bottom: 35px;
+  padding-bottom: 10px;
 }
 
 .aside_populaires{
@@ -326,6 +326,9 @@ align-items: center;
 }
 .bloc_populaires .contenu_pop{
  padding: 5px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
 }
 .titre_hôtel_populaires{
   color: black;
@@ -340,7 +343,8 @@ align-items: center;
 .etoiles_pop{
   color: #0065fc;
   font-size: 11px;
-  margin-top: 9vh;
+  margin-top: auto;
+  margin-bottom: 5px;
 }
 
 /*SECTION 3*/
@@ -499,11 +503,6 @@ footer{
   font-size: 18px;
   padding-bottom: 19px;
 }
-.etoiles_pop{
-  color: #0065fc;
-  font-size: 11px;
-  margin-top: 6vh;
-}
 
 /*SECTION 3*/
 .titre_activites{
@@ -618,13 +617,9 @@ footer{
 }
 .bloc_populaires .contenu_pop{
   padding: 5px;
+  font-size: 10px;
 }
-.titre_hôtel_populaires{
-  font-size: 0.7em;
-}
-.prix_populaires{
-  font-size: 0.5em;
-}
+
 
 .bloc_activites{
   width: 22vw;
