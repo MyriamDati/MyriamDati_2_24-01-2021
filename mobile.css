@@ -1,9 +1,12 @@
 /*CSS pour mobile*/
 @media screen and (max-width:600px){
-.nav_logo{
+/*HEADER*/
+  .nav_logo{
   flex-basis: 50%;
   margin-left: 20px;
 }
+
+
 /*SECTION 1*/
 .introduction{
   font-family: "Raleway", sans-serif;
@@ -27,7 +30,6 @@ form{
 .rechercher{
   display: none;
 }
-
 .bloc_filtres{
   flex-direction: column;
 }
@@ -77,8 +79,9 @@ margin-left: 15px;
   margin-bottom: 15px;
 }
 .bloc_hebergements a img{
-  width: 98.5%;
+  width: 98%;
   height: 23vh;
+  margin: 1%;
 }
 .bloc_hebergements .titre_hôtel{
   margin-top: 0px;
@@ -95,6 +98,18 @@ margin-left: 15px;
   padding: 0px;
   padding-top: 20px;
   padding-bottom: 30px;
+}
+
+
+/*ASIDE*/
+.titre_hôtel_populaires{
+  font-size: 75%;
+}
+.prix_populaires{
+  font-size: 70%;
+}
+.etoiles_pop{
+  font-size: 50%;
 }
 
 
@@ -228,16 +243,23 @@ margin-bottom: 20px;
 margin-left: 20px;
 font-size: 13px;
 }
+
+
+/*FOOTER*/
 .bloc_footer{
   display: flex;
   flex-direction: column;
   padding-left: 10px;
 }
 }
+
 @media screen and (max-width:320px){
-.nav_logo{
+/*HEADER*/
+  .nav_logo{
   margin-left: 10px;
 }
+
+
 /*SECTION 1*/
 .introduction h1{
   margin-left: 10px;
@@ -248,7 +270,6 @@ font-size: 13px;
 form{
   margin-left: 10px;
 }
-
 .titre_filtre{
   padding-left: 0px;
 }
@@ -259,12 +280,16 @@ form{
 margin-left: 5px;
 }
 
+
+/*ASIDE*/
 .aside_populaires{
   flex: 1 100%;
   height: fit-content;
   border-radius: 0px;
   margin-bottom: 20px;
-  justify-content: center;
+}
+.aside_contenu_pop{
+  margin: auto;
   padding: 10px;
 }
 .bloc_titre_populaires{
@@ -287,6 +312,8 @@ margin-left: 5px;
   font-size: 0.7rem;
 }
 
+
+/*SECTION 2*/
 #hebergements{
   padding: 0;
   padding-left: 10px;
@@ -301,10 +328,14 @@ margin-left: 5px;
   padding-left: 10px;
 }
 
+
+/*SECTION 3*/
 #activites h2{
   padding-left: 10px;
 }
 
+
+/*FOOTER*/
 .bloc_footer{
   padding-left: 5px;
 }

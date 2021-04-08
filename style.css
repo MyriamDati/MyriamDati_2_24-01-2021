@@ -42,6 +42,7 @@ table {
 	border-spacing: 0;
 }
 
+/*CODE*/
 a{
   text-decoration: none;
 }
@@ -55,7 +56,7 @@ display: block;
 }
 
 
-/* Barre de navigation */
+/*HEADER*/
 header{
   display: flex;
   flex-direction: row;
@@ -92,6 +93,8 @@ header a{
   color: #0065fc;
   font-weight: bold;
 }
+
+
 /*Section 1*/
 .introduction{
   font-family: "Raleway", sans-serif;
@@ -211,6 +214,7 @@ align-items: center;
   margin-left: 5px;
 }
 
+
 /*SECTION 2*/
 .bloc_section_hebergement_populaires{
   display: flex;
@@ -253,7 +257,7 @@ align-items: center;
 .bloc_hebergements a img{
   width: 97%;
   height: 16vh;
-  border: 4px solid white;
+  margin: 1.5%;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
 }
@@ -284,6 +288,8 @@ align-items: center;
   padding-bottom: 10px;
 }
 
+
+/* ASIDE*/
 .aside_populaires{
   display: flex;
   flex-direction: column;
@@ -292,6 +298,9 @@ align-items: center;
   height: fit-content;
   margin-right: 20px;
   border-radius: 20px;
+}
+.aside_contenu_pop{
+  margin: auto;
   padding: 40px;
 }
 .bloc_titre_populaires{
@@ -346,6 +355,7 @@ align-items: center;
   margin-top: auto;
   margin-bottom: 5px;
 }
+
 
 /*SECTION 3*/
 #activites{
@@ -491,18 +501,19 @@ footer{
 
 /*CSS modification sur desktop*/
 @media screen and (max-width:1024px){
+/*SECTION 2*/
 .bloc_hebergements{
   width: 32%;
   height: 30vh;
 }
 .bloc_hebergements a img{
   width: 97%;
-  border: 3px solid white;
 }
 .lien_afficher{
   font-size: 18px;
   padding-bottom: 19px;
 }
+
 
 /*SECTION 3*/
 .titre_activites{
@@ -550,7 +561,6 @@ footer{
   width: 100%;
   height: 18vh;
 }
-
 }
 
 @media screen and (max-width:938px){
@@ -595,21 +605,26 @@ footer{
   padding-left: 20px;
 }
 
+
+/*ASIDE*/
 .aside_populaires{
   flex: 1 100%;
   margin-right: 0px;
   margin-bottom: 20px;
   border-radius: 0px;
 }
+.aside_contenu_pop{
+  margin: 0;
+  padding: 30px;
+}
 .bloc_cartes_populaires{
   display: flex;
   flex-direction: row;
-  margin-bottom: 0px;
-  justify-content: space-between;
 }
 .bloc_populaires{
-  width: 30vw;
+  width: 50%;
   height: 15vh;
+  margin-right: 10px;
 }
 .bloc_populaires a img{
   width: 15vw;
@@ -621,6 +636,7 @@ footer{
 }
 
 
+/*SECTION 3*/
 .bloc_activites{
   width: 22vw;
   height: 50vh;
@@ -663,4 +679,5 @@ footer{
   width: 100%;
   height: 18vh;
 }
+
 }
