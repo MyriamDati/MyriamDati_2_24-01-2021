@@ -79,8 +79,6 @@ align-items: center;
   margin-left: auto;
 }
 #hebergements{
-  margin-right: 0 auto;
-  margin-left: 0 auto;
   margin-bottom: 20px;
   border-radius: 0px;
   margin-top: 20px;
@@ -89,8 +87,6 @@ align-items: center;
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-right: 0 auto;
-  margin-left: 0 auto;
   justify-content: center;
 }
 .bloc_hebergements{
